@@ -25,4 +25,13 @@ public class HomeController {
 		return "creatorHome";
 	}
 	
+	@RequestMapping(value="myPage", method = RequestMethod.GET)
+	public String myPage() {
+		return "myPage";
+	}
+	
+	@RequestMapping(value="support", method = RequestMethod.GET)
+	public String support() {
+		return "support";
+	}
 }

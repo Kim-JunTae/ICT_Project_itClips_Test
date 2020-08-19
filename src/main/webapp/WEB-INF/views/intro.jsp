@@ -29,7 +29,7 @@
 				<!-- Footer -->
 				<footer id="footer">
 					<span class="copyright">&copy; itClips. 2020.08 <a href="#">Go Admin Page</a></span>
-					<a href="#" class="icon brands fa-github"><span class="label">Github</span></a>
+					<a href="https://github.com/Kim-JunTae/ICT_Project_itClips_Test" class="icon brands fa-github"><span class="label">Github</span></a>
 				</footer>
 
 			</div>

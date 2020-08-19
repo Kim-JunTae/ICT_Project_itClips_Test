@@ -6,10 +6,10 @@
 	<h3>itClips</h3>
 	<a href="" class="icon solid fa-home">&nbsp;&nbsp;Home</a>
 	<a href="javascript:modal(0)" class="icon solid fa-sign-in-alt" data-toggle="modal" data-target="#loginModal">&nbsp;&nbsp;Login</a>
-	<a href="#" class="icon solid fa-user-cog">&nbsp;&nbsp;MyPage</a>
+	<a href="myPage" class="icon solid fa-user-cog">&nbsp;&nbsp;MyPage</a>
 	<a href="javascript:modal(1)" class="icon solid fa-bell" data-toggle="modal" data-target="#alertModal">&nbsp;&nbsp;Alert</a>
 	<a href="javascript:modal(2)" class="icon solid fa-share-alt" data-toggle="modal" data-target="#shareModal">&nbsp;&nbsp;Share</a>
-	<a href="#" class="icon solid fa-question-circle">&nbsp;&nbsp;Support</a>
+	<a href="support" class="icon solid fa-question-circle">&nbsp;&nbsp;Support</a>
 </nav>
 
 <!-- loginModal1 -->
@@ -63,12 +63,12 @@
       	<form>
 			<div class="form-group">
 			    <label for="userId">ID</label>
-			    <input type="text" name="userId" placeholder="id">
+			    <input type="text" class="form-control" name="userId" placeholder="아이디를 입력하세요">
 		  	</div>
 		  	
 		  	<div class="form-group">
 			    <label for="userPw">PW</label>
-			    <input type="password" name="userPw" placeholder="password">
+			    <input type="password" class="form-control" name="userPw" placeholder="패스워드를 입력하세요">
 		  	</div>
 		  	
 		  	<div class="form-group form-check">
@@ -130,8 +130,14 @@
         </button>
       </div>
       <div class="modal-body">
-      	<input type="text" readonly="readonly" value="http://localhost:8080/itClips/userHome">
-		<input type="button" value="복사">
+ 
+		<div class="input-group mb-3">
+		  <input type="text" class="form-control" value="http://localhost:8080/itClips/userHome">
+		  <div class="input-group-append">
+		    <button class="btn btn-info" type="button" id="button-addon2">복사</button>
+		  </div>
+		</div>
+		
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">닫기</button>

@@ -4,9 +4,9 @@
 <html>
 <head>
 <meta charset="EUC-KR">
-<title>login</title>
+<title>support</title>
 </head>
 <body>
-
+	<h1>고객센터</h1>
 </body>
 </html>

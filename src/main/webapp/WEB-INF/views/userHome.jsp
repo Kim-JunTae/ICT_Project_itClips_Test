@@ -22,9 +22,8 @@
 			<header class="clearfix">
 				<span>
 					<button id="showLeft" class="icon solid fa-bars"></button>
-					·Î°í
+					itClips
 				</span>
-				<h1>itClips</h1>
 			</header>
 		</div>
 		
